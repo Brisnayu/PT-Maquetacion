@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* FONTS */
+  --title-font: "Protest Riot", sans-serif;
+  --text-font: "Quicksand", sans-serif;
+
+  /* COLORS */
+  --color-000: #ffffff;
+  --color-100: #dba777;
+  --color-200: #ff9921;
+  --color-300: #fa5800;
+  --color-400: #3a424c;
+  --color-500: #000000;
+
+  --background-light: whitesmoke;
+  --background-dark: var(--color-400);
+
+  /* BORDERS */
+  --border-radius: 20px;
+
+  /* SPACINGS */
+  --padding-xs: 10px;
+  --padding-s: 15px;
+  --padding-m: 20px;
+  --padding-l: 25px;
+  --padding-xl: 30px;
+
+  --margin-xs: 10px;
+  --margin-s: 15px;
+  --margin-m: 20px;
+  --margin-l: 25px;
+  --margin-xl: 30px;
+
+  --gap-xs: 10px;
+  --gap-s: 15px;
+  --gap-m: 20px;
+  --gap-l: 25px;
+  --gap-xl: 30px;
+
+  /* SIDE LOGO */
+  --side-xs: 5rem;
+  --side-s: 10rem;
+  --side-m: 15rem;
+}
+
+/* GLOBAL STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+}
+
+a {
+  font-weight: 900;
+  text-decoration: inherit;
+  transition: color 0.5s ease;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 20vh;
+  width: 100%;
+  border: 1px solid yellow;
+}
+
+main {
+  min-height: 70vh;
+  height: 100%;
+  border: 1px solid blue;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+  border: 1px solid red;
+}
+
+/* LIGHT SIDE */
+
+* {
+  background-color: var(--background-light);
+}
+
+a {
+  color: var(--color-500);
+  -webkit-text-stroke: 0.2px var(--color-300);
+}
+
+a:hover {
+  color: var(--color-300);
+}
+
+/* DARK SIDE */
+
+.dark * {
+  background-color: var(--background-dark);
+}
+
+.dark a {
+  color: var(--color-100);
+  -webkit-text-stroke: 0.2px var(--color-200);
+}
+
+.dark a:hover {
+  color: var(--color-000);
+}
+
+
+
+/*
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
