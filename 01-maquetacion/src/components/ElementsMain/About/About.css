@@ -1,0 +1,17 @@
+.containerAbout {
+  display: flex;
+  margin: 0 10rem;
+  flex-direction: row-reverse;
+}
+
+.inf {
+    flex-direction: row;
+}
+
+@media screen and (max-width: 680px) {
+  .containerAbout {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}

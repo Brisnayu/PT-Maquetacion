@@ -1,9 +1,16 @@
+import { About } from "../ElementsMain/About/About";
+import { Home } from "../ElementsMain/Home/Home";
 import "./Main.css";
 
 export const Main = () => {
-  return `
-    <div>
-        <h1>ESTE ES EL CUERPO</h1>
+  const main = document.querySelector("main");
+
+  if (main) {
+    main.innerHTML = `
+    <div class="containerMain">
+        ${Home()}
+        ${About()}
     </div>
     `;
+  }
 };

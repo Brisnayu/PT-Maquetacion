@@ -1,0 +1,48 @@
+.containerImages {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+  min-height: 68vh;
+  position: relative;
+}
+
+.imageSup {
+  height: var(--side-l);
+  background-color: var(--color-100);
+  border-radius: var(--border-radius);
+  position: absolute;
+  top: 10rem;
+  left: 0;
+}
+
+.imageInf {
+  height: var(--side-l);
+  background-color: var(--color-200);
+  border-radius: var(--border-radius);
+  border: 9px solid var(--background-light);
+  position: absolute;
+  top: 2rem;
+  left: 9.5rem;
+}
+
+.dark .imageInf {
+  border: 9px solid var(--background-dark);
+}
+
+@media screen and (max-width: 911px) {
+  .containerImages {
+    height: 60vh;
+  }
+
+  .imageSup {
+    height: var(--side-s);
+  }
+
+  .imageInf {
+    height: var(--side-s);
+    top: 2.5rem;
+    left: 3rem;
+  }
+}
