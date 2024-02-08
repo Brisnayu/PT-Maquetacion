@@ -21,7 +21,7 @@
   /* BORDERS */
   --border-radius: 20px;
 
-  /* SPACINGS */
+  /* PADDINGS */
   --padding-xs: 1rem;
   --padding-s: 2rem;
   --padding-m: 3rem;
@@ -67,6 +67,10 @@ a {
 h2 {
   font-family: var(--title-font);
   font-size: 3.5rem;
+}
+
+h4 {
+  font-family: var(--title-font);
 }
 
 li {

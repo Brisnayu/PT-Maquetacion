@@ -1,0 +1,25 @@
+.containerServices {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.containerCards {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 1rem 20rem;
+  width: 100%;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.containerServices > img {
+    position: absolute;
+    top: 15%;
+    background-color: var(--color-300);
+    width: 30%;
+    border-radius: var(--border-radius);
+}

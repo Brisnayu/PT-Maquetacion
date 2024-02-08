@@ -1,5 +1,6 @@
 import { About } from "../ElementsMain/About/About";
 import { Home } from "../ElementsMain/Home/Home";
+import { Services } from "../ElementsMain/Services/Services";
 import "./Main.css";
 
 export const Main = () => {
@@ -10,6 +11,7 @@ export const Main = () => {
     <div class="containerMain">
         ${Home()}
         ${About()}
+        ${Services()}
     </div>
     `;
   }
