@@ -15,7 +15,7 @@ export const Services = () => {
         <div class="containerCards">
             ${cardsServices}
         </div>
-        <img src="/Home/black-cat.png" alt="Black Cat" />
+        <img src="/Home/dog-services.png" alt="Black Cat" />
     </div>
     `;
 };

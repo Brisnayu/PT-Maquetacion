@@ -1,0 +1,13 @@
+.containerPersonal {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: var(--padding-s);
+}
+
+.containerAvatars {
+  /* border: 1px solid green; */
+  display: flex;
+  gap: var(--gap-l);
+}
