@@ -1,0 +1,22 @@
+.containerPrincipal {
+  display: flex;
+}
+
+.containerForm {
+  width: 40%;
+  border: 2px solid green;
+}
+
+.containerInformation {
+  width: 60%;
+  /* border: 2px solid pink; */
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  padding-bottom: var(--padding-xs);
+}
+
+.containerPrincipal p:nth-last-child(1) {
+  font-size: 0.7rem;
+  padding: 0 var(--padding-s);
+}

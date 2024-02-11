@@ -18,7 +18,6 @@ export const CardText = (title: string, text: string, listInformation?: string[]
         <ul class="containerList">
           ${contentList}
         </ul>` : ""}
-        
       </div>
     `;
 };
