@@ -22,8 +22,7 @@
   filter: drop-shadow(0 0 2em var(--color-200));
 }
 
-.nav-label,
-input {
+.nav-label, .nav-input {
   display: none;
 }
 
@@ -100,7 +99,7 @@ input {
     justify-content: space-around;
   }
 
-  .nav-list{
+  .nav-list {
     display: flex;
     flex-direction: column;
   }

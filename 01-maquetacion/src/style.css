@@ -20,8 +20,10 @@
 
   /* BORDERS */
   --border-radius: 20px;
+  --border-radius-all: 100%;
 
   /* PADDINGS */
+  --padding-xxs: 10px;
   --padding-xs: 1rem;
   --padding-s: 2rem;
   --padding-m: 3rem;
@@ -63,6 +65,7 @@ a {
   font-weight: 900;
   text-decoration: inherit;
   transition: color 0.5s ease;
+  background: transparent;
 }
 
 h2 {

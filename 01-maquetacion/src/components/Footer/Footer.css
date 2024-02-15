@@ -5,6 +5,15 @@
 .containerForm {
   width: 40%;
   border: 2px solid green;
+  background-color: var(--color-100);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  padding: 0 var(--padding-s);
+}
+
+.dark .containerForm {
+  background-color: var(--color-600);
 }
 
 .containerInformation {
@@ -19,4 +28,67 @@
 .containerPrincipal p:nth-last-child(1) {
   font-size: 0.7rem;
   padding: 0 var(--padding-s);
+}
+
+/* LADO IZQUIERDO */
+
+.containerForm img {
+  width: 8rem;
+  background-color: transparent;
+}
+
+.containerRRSS {
+  /* border: 1px solid green; */
+  /* padding: 0 var(--padding-s); */
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-s);
+}
+
+.containerRRSS > div {
+  display: flex;
+  gap: var(--gap-s);
+}
+
+.containerRRSS,
+.containerRRSS > h4,
+.containerRRSS > div {
+  background-color: transparent;
+}
+
+.dark .containerRRSS > div > a {
+  background-color: transparent;
+}
+
+.containerRRSS img {
+  width: 2.5rem;
+}
+
+.dark .containerRRSS img,
+.dark .label-follow > img {
+  filter: invert();
+}
+
+.input-follow {
+  width: 50%;
+  height: 10px;
+  padding: var(--padding-xs);
+  border-radius: var(--border-radius);
+  background-color: var(--background-light);
+  color: var(--color-500);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* STYLE ARROW LABEL */
+.label-follow {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.label-follow > img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
