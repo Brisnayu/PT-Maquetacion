@@ -29,3 +29,43 @@
   background-color: var(--color-300);
   opacity: 0.85;
 }
+
+.containerCardText {
+  /* border: 1px solid green; */
+  padding-right: var(--padding-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.containerCardText h4 {
+  font-family: var(--title-font);
+  font-size: 3.5rem;
+}
+
+.icon {
+  height: var(--side-xxs);
+  background-color: var(--color-200);
+  border-radius: 100%;
+}
+
+.containerList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-s) 0;
+  gap: var(--gap-s);
+}
+
+@media screen and (max-width: 1091px) {
+  .containerCardText {
+    padding-left: var(--padding-xl);
+  }
+}
+
+@media screen and (max-width: 911px) {
+  .containerCardText {
+    padding: 0;
+  }
+}

@@ -3,11 +3,11 @@ import "./Header.css";
 
 export const Header = () => {
   const linksHTML = Object.entries(links)
-    .map(([name, link]) => `<li><a href="#" id="${link}">${name}</a></li>`)
+    .map(([name, link]) => `<li><a href=#${link}>${name}</a></li>`)
     .join("");
 
   return `
-    <div class="container-header">
+    <div class="container-header" id="homelink">
 
     <img class="logo" id="logolink" src="/logo.png" alt="logo" />
     

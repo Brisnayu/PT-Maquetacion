@@ -5,11 +5,11 @@ import { Card } from "../../Card/Card";
 
 export const Services = () => {
   const cardsServices = contentServices
-    .map((service) => `${Card(service.title, service.content)}`)
+    .map((service) => `${Card("containerCard", service.title, service.content)}`)
     .join("");
 
   return `
-    <div class="containerServices">
+    <div class="containerServices" id="serviceslink">
       <h3>What we do for you?</h3>
       <h2>Our Services</h2>
         <div class="containerCards">

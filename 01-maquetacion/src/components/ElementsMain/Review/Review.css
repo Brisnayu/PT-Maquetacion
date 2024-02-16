@@ -1,0 +1,10 @@
+.containerReview {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid green;
+  align-items: center;
+}
+
+.containerComent {
+  display: flex;
+}

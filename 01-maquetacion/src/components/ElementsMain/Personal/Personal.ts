@@ -16,7 +16,7 @@ export const Personal = () => {
     .join("");
 
   return `
-    <div class="containerPersonal">
+    <div class="containerPersonal" id="aboutlink">
         <h3>Pet Care Staff</h3>
         <h2>Meet Our Groomers</h2>
         <div class="containerAvatars">
