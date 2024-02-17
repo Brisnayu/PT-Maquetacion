@@ -23,10 +23,10 @@ export const Header = () => {
                 ${linksHTML}
                 </ul>
             </nav>
+
+            <button id="themeBtn"><img src="/dark-mode.png" alt="logo-dark-mode" id="logo-moon-sun"/></button>
         </section>  
 
-        <button id="themeBtn"><img src="/dark-mode.png" alt="logo-dark-mode" id="logo-moon-sun"/></button>
-    
     </div>
     `;
 };

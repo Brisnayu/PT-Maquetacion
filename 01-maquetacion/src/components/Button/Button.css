@@ -1,0 +1,20 @@
+.componentButton {
+  margin-top: var(--margin-xs);
+  padding: var(--padding-xxs) var(--padding-s);
+  border-radius: var(--border-radius);
+  width: 14rem;
+  background-color: var(--color-200);
+  font-weight: bolder;
+  font-size: 1rem;
+  color: var(--color-400);
+  cursor: pointer;
+  border: 2px solid var(--color-400);
+  transition: scale 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.componentButton:hover {
+    background-color: var(--color-300);
+    color: var(--color-000);
+    scale: 1.1;
+}
+

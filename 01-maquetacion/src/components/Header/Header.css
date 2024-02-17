@@ -4,6 +4,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: url("/hojas-otoño.jpg");
+  background-size: 100%;
+  background-position: 0 65%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  transition: background-image 0.5s ease;
+  border-bottom: 5px solid var(--color-200);
+  transition: background-color 0.6s ease;
+}
+
+.dark .container-header {
+  background-color: var(--background-dark);
+  border-bottom: 5px solid var(--color-000);
 }
 
 .logo {
@@ -22,7 +35,8 @@
   filter: drop-shadow(0 0 2em var(--color-200));
 }
 
-.nav-label, .nav-input {
+.nav-label,
+.nav-input {
   display: none;
 }
 
@@ -30,6 +44,7 @@
   display: flex;
   justify-content: space-evenly;
   gap: var(--gap-xl);
+  background-color: transparent;
 }
 
 #themeBtn {
@@ -37,7 +52,21 @@
 }
 
 #themeBtn > img {
-  height: var(--side-xs);
+  height: 2.5rem;
+  background-color: transparent;
+}
+
+.header-navbar {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-xl);
+  padding: var(--padding-s);
+  background: transparent;
+  height: 100%;
+}
+
+.header-navbar > button {
+  background: transparent;
 }
 
 @media screen and (max-width: 740px) {

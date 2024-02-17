@@ -21,7 +21,7 @@
   height: var(--side-l);
   background-color: var(--color-200);
   border-radius: var(--border-radius);
-  border: 9px solid var(--background-light);
+  border: 9px solid var(--color-000);
   position: absolute;
   top: 2rem;
   left: 9.5rem;

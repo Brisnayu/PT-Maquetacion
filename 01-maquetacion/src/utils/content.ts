@@ -3,17 +3,17 @@
 type TypeHome = {
   title: string;
   text: string;
-}
+};
 type AboutContent = {
   title: string;
   text: string;
   list: string[];
-}
+};
 
 type TypeServices = {
   title: string;
   content: string;
-}
+};
 
 export const contentHome: TypeHome = {
   title: "Established & Trusted Pet Care Service",
@@ -69,3 +69,8 @@ export const contentServices: TypeServices[] = [
       "Assist with pet medical administration, including medication and special care as needed.",
   },
 ];
+
+export const contentHero: TypeServices = {
+  title: "Welcome to PetParadise!",
+  content: "Embark on a journey of pet love and joy. PetParadise is your destination for heartwarming tales, helpful tips, and the shared passion for our furry friends. Join our community, where every pawprint tells a story, and together, we celebrate the happiness that pets bring into our lives. Your pet's paradise awaits!",
+};

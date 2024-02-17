@@ -40,7 +40,7 @@
   --gap-xs: 10px;
   --gap-s: 15px;
   --gap-m: 20px;
-  --gap-l: 25px;
+  --gap-l: 1rem;
   --gap-xl: 30px;
 
   /* SIDE LOGO */
@@ -63,6 +63,8 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: var(--text-font);
+  animation: fadeInZoom 0.5s ease-in-out;
+  transition: background-color 0.5s ease, color 0.2s ease;
 }
 
 a {
@@ -70,6 +72,14 @@ a {
   text-decoration: inherit;
   transition: color 0.5s ease;
   background: transparent;
+  font-size: 1.1rem;
+  color: var(--color-000);
+  transition: scale 0.5s ease;
+}
+
+a:hover {
+  color: var(--color-100);
+  scale: 1.15;
 }
 
 h2 {
@@ -113,38 +123,38 @@ footer {
 
 /* LIGHT SIDE */
 
-* {
+/* * {
   background-color: var(--background-light);
-}
-
-a {
-  color: var(--color-500);
-  -webkit-text-stroke: 0.2px var(--color-300);
-}
-
-a:hover {
-  color: var(--color-300);
-}
+} */
 
 /* DARK SIDE */
 
-.dark * {
+.dark main {
   background-color: var(--background-dark);
   color: var(--color-000);
 }
 
 .dark a {
-  color: var(--color-100);
-  -webkit-text-stroke: 0.2px var(--color-000);
+  color: var(--color-000);
+  -webkit-text-stroke: 0.2px var(--color-100);
 }
 
 .dark a:hover {
-  color: var(--color-000);
+  color: var(--color-300);
 }
 
 .dark h2 {
   color: var(--color-100);
   font-weight: lighter;
+}
+
+@keyframes fadeInZoom {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 @media screen and (max-width: 911px) {

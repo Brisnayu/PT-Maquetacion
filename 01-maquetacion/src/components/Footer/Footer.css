@@ -2,6 +2,11 @@
   display: flex;
 }
 
+.dark .containerPrincipal {
+  background-color: var(--background-dark);
+  color: var(--color-000)
+}
+
 .containerForm {
   width: 40%;
   border: 2px solid green;

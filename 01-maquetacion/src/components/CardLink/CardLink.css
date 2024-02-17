@@ -31,3 +31,12 @@
   background-color: var(--color-100);
   border-radius: var(--border-radius);
 }
+
+.dark .containerList1 a {
+  color: var(--color-000);
+  -webkit-text-stroke: 0.6px var(--color-000);
+}
+
+.dark .containerList1 a:hover {
+  background-color: var(--color-300);
+}
