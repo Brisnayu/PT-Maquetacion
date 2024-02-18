@@ -4,12 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url("/hojas-otoño.jpg");
-  background-size: 100%;
-  background-position: 0 65%;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  transition: background-image 0.5s ease;
+  /* background: url("/hojas-otoño.jpg"); */
   border-bottom: 5px solid var(--color-200);
   transition: background-color 0.6s ease;
 }
@@ -20,7 +15,7 @@
 }
 
 .logo {
-  height: var(--side-s);
+  height: var(--side-xs);
   /* padding: 1.5em; */
   will-change: filter;
   transition: filter 300ms;
@@ -54,6 +49,11 @@
 #themeBtn > img {
   height: 2.5rem;
   background-color: transparent;
+  transition: rotate 0.5s linear;
+}
+
+#themeBtn > img:hover {
+  rotate: 180deg;
 }
 
 .header-navbar {

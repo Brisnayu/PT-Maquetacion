@@ -1,3 +1,4 @@
+import { Collapse } from "../Collapse/Collapse";
 import { About } from "../ElementsMain/About/About";
 import { Home } from "../ElementsMain/Home/Home";
 import { Personal } from "../ElementsMain/Personal/Personal";
@@ -14,9 +15,12 @@ export const Main = () => {
     <div class="containerMain">
         ${Hero()}
         ${Home()}
-        ${About()}
+        
         ${Services()}
         ${Personal()}
+        ${About()}
+
+        ${Collapse()}
         ${Review()}
     </div>
     `;

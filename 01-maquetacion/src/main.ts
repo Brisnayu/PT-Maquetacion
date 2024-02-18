@@ -15,7 +15,9 @@ if (headerElement && footerElement) {
 // Funcionality
 import { changeTheme } from "./utils/changeTheme";
 import { Main } from "./components/Main/Main";
+import { changeCollapse } from "./utils/changeCollapse";
 
 // Ejecution
 changeTheme();
 Main();
+changeCollapse();

@@ -3,6 +3,7 @@ import {
   explore,
   infoRRSS,
   openingTime,
+  usefulLinks,
   // usefulLinks,
 } from "../../utils/infoFooter";
 import { CardLink } from "../CardLink/CardLink";
@@ -42,11 +43,9 @@ export const Footer = () => {
 
       <div class="containerInformation">
         ${CardLink("Explore", undefined, Object.entries(explore))}
-        ${CardLink("Contact", contactInfo)}
+        ${CardLink("Useful Links", usefulLinks)}
         ${CardLink("Contact", contactInfo)}
         ${CardLink("Opening Time", openingTime)}
-        
-        
         <p>Copyright 2023 Brisna A. Páez M.</p>
       </div>
     </div>

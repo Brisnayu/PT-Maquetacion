@@ -6,12 +6,12 @@ export const explore = {
   Contact: "contactlink",
 };
 
-export const usefulLinks = {
-  FAQs: "https://www.santevet.es/uploads/images/es_ES/razas/gatocomuneuropeo.jpeg",
-  Shop: "www.google.com",
-  "Privacy Policy": "www.google.com",
-  "Terms And Conditions": "www.google.com",
-};
+export const usefulLinks = [
+  "FAQs",
+  "Shop",
+  "Privacy Policy",
+  "Terms And Conditions",
+];
 
 export const contactInfo = [
   "pruebadeemail@gmail.com",

@@ -73,7 +73,7 @@ a {
   transition: color 0.5s ease;
   background: transparent;
   font-size: 1.1rem;
-  color: var(--color-000);
+  color: var(--color-500);
   transition: scale 0.5s ease;
 }
 
@@ -104,9 +104,9 @@ li {
 }
 
 header {
-  min-height: 20vh;
+  max-height: 20vh;
   width: 100%;
-  /* border: 1px solid yellow; */
+  /* border: 3px solid red; */
 }
 
 main {
