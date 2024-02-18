@@ -1,13 +1,19 @@
 .containerPersonal {
-  /* border: 2px solid red; */
+  background-color: var(--background-light);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: var(--padding-s);
+  padding: var(--padding-s);
+}
+
+.dark .containerPersonal {
+  background-color: var(--color-700);
 }
 
 .containerAvatars {
   /* border: 1px solid green; */
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: var(--gap-l);
 }

@@ -1,7 +1,12 @@
-export const links = {
+const links = {
   Home: "homelink",
-  About: "aboutlink",
+  "About Us": "aboutlink",
   Services: "serviceslink",
+  "Pet Care Hub": "petcarehublink",
   Reviews: "reviewlink",
   Contact: "contactlink"
 };
+
+export const LinksHTML = Object.entries(links)
+.map(([name, link]) => `<li><a href=#${link}>${name}</a></li>`)
+.join("");

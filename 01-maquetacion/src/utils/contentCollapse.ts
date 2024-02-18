@@ -1,25 +1,4 @@
-export const collapsableContent = [
-  {
-    title: "List of Safe and Hazardous Foods",
-    content: [
-      "Information about safe and hazardous foods for different types of pets.",
-      "Details on the benefits of a balanced diet for pets.",
-    ],
-  },
-  {
-    title: "Vaccination Schedule",
-    content: [
-      "A detailed guide on necessary vaccines for dogs, cats, and other pets.",
-      "Reminders about the importance of keeping pet vaccines up to date.",
-    ],
-  },
-  {
-    title: "Tips for Bathing and Grooming",
-    content: [
-      "Step-by-step instructions for bathing and grooming different breeds.",
-      "Recommended products for coat and skin care.",
-    ],
-  },
+const collapsableContent = [
   {
     title: "Recommended Toys and Activities",
     content: [
@@ -56,3 +35,20 @@ export const collapsableContent = [
     ],
   },
 ];
+
+export const CollapseHTML = collapsableContent
+  .map(
+    ({ title, content }) => `
+  <div class="containerInfo">
+    <div class="containerTitle">
+      <h3>${title}</h3>
+        <button class="collapseButton">
+          <img class="iconButton" src="/arrow-down.png" alt="arrow down" />
+        </button>
+    </div>
+    <ul class="contentCollapse">
+      ${content.map((element) => `<li>${element}</li>`).join("")}
+    </ul>
+  </div>`
+  )
+  .join("");

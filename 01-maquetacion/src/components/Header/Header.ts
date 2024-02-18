@@ -1,15 +1,15 @@
-import { links } from "../../utils/links";
 import "./Header.css";
 
+import { LinksHTML } from "../../utils/links";
+
 export const Header = () => {
-  const linksHTML = Object.entries(links)
-    .map(([name, link]) => `<li><a href=#${link}>${name}</a></li>`)
-    .join("");
 
   return `
-    <div class="container-header" id="homelink">
+    <div class="container-header">
 
-    <img class="logo" id="logolink" src="/logo.png" alt="logo" />
+        <a href="https://portfolio-brisna-paez.netlify.app/" target="_blank">
+            <img class="logo" id="logolink" src="/logo.png" alt="logo" />
+        </a>
     
         <section class="header-navbar">
             <label class="nav-label" for="hamburger">
@@ -20,7 +20,7 @@ export const Header = () => {
 
             <nav class="navbar">
                 <ul class="nav-list">
-                ${linksHTML}
+                ${LinksHTML}
                 </ul>
             </nav>
 

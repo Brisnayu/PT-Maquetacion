@@ -1,27 +1,18 @@
 import {
+  CardRRSS,
   contactInfo,
   explore,
-  infoRRSS,
   openingTime,
   usefulLinks,
-  // usefulLinks,
 } from "../../utils/infoFooter";
 import { CardLink } from "../CardLink/CardLink";
 
 import "./Footer.css";
 
 export const Footer = () => {
-  const CardRRSS = infoRRSS
-    .map(
-      (info) =>
-        `<a href=${info.link} target="_blank">
-          <img src=${info.icon} alt=${info.alt} />
-        </a>`
-    )
-    .join("");
 
   return `
-    <div class="containerPrincipal" id="contactlink">
+    <div class="containerPrincipal">
       <div class="containerForm">
         <img src="/logo.png" alt="logo" />
         

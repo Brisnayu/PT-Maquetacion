@@ -16,8 +16,10 @@ if (headerElement && footerElement) {
 import { changeTheme } from "./utils/changeTheme";
 import { Main } from "./components/Main/Main";
 import { changeCollapse } from "./utils/changeCollapse";
+import { changeCarousel } from "./utils/changeCarousel";
 
 // Ejecution
 changeTheme();
 Main();
 changeCollapse();
+changeCarousel();

@@ -1,10 +1,12 @@
 .containerReview {
   display: flex;
   flex-direction: column;
-  border: 5px solid green;
   align-items: center;
+  background-color: var(--background-light);
+  padding: var(--padding-xs);
 }
 
-.containerComent {
-  display: flex;
+.dark .containerReview {
+  background-color: var(--color-700);
 }
+

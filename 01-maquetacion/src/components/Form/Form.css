@@ -1,0 +1,32 @@
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  padding-bottom: var(--padding-xxs);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: var(--padding-xxs);
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+}
+
+.services {
+  display: flex;
+  align-items: center;
+}
+
+.services > input {
+  width: 5%;
+  margin: 1rem;
+}
+
+.services > label {
+  width: 95%;
+}

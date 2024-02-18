@@ -50,6 +50,7 @@
   height: 2.5rem;
   background-color: transparent;
   transition: rotate 0.5s linear;
+  cursor: pointer;
 }
 
 #themeBtn > img:hover {

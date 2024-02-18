@@ -1,0 +1,59 @@
+.containerCarousel {
+  width: 100%;
+  padding: var(--padding-s);
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-s);
+}
+
+.itemCarousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid var(--color-400);
+  border-radius: var(--border-radius);
+  background-color: var(--color-600);
+  padding: var(--padding-xxs);
+  width: 70%;
+  display: none;
+}
+
+.carouselShow {
+  display: flex;
+  color: var(--color-500);
+}
+
+#btnBack,
+#btnFront {
+  background-color: transparent;
+  padding: var(--padding-xxs);
+  border-radius: var(--border-radius);
+  background-color: var(--color-200);
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: scale 0.5s ease;
+}
+
+#btnBack:hover,
+#btnFront:hover {
+  background-color: var(--color-100);
+  scale: 1.1;
+}
+
+#btnBack > img {
+  width: 1.5rem;
+  rotate: 90deg;
+}
+
+#btnFront > img {
+  width: 1.5rem;
+  rotate: 270deg;
+}

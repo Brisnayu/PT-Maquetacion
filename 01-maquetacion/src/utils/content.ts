@@ -72,5 +72,12 @@ export const contentServices: TypeServices[] = [
 
 export const contentHero: TypeServices = {
   title: "Welcome to PetParadise!",
-  content: "Embark on a journey of pet love and joy. PetParadise is your destination for heartwarming tales, helpful tips, and the shared passion for our furry friends. Join our community, where every pawprint tells a story, and together, we celebrate the happiness that pets bring into our lives. Your pet's paradise awaits!",
+  content:
+    "Embark on a journey of pet love and joy. PetParadise is your destination for heartwarming tales, helpful tips, and the shared passion for our furry friends. Join our community, where every pawprint tells a story, and together, we celebrate the happiness that pets bring into our lives. Your pet's paradise awaits!",
+};
+
+export const contentContacts: TypeServices = {
+  title: "Contact Us",
+  content:
+    "We will be delighted to answer your questions and address your concerns. Fill out the following form so that we can get in touch with you as soon as possible:",
 };

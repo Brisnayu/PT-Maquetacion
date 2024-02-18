@@ -1,9 +1,10 @@
 export const explore = {
   Home: "homelink",
-  About: "aboutlink",
+  "About Us": "aboutlink",
   Services: "serviceslink",
+  "Pet Care Hub": "petcarehublink",
   Reviews: "reviewlink",
-  Contact: "contactlink",
+  Contact: "contactlink"
 };
 
 export const usefulLinks = [
@@ -25,7 +26,7 @@ export const openingTime = [
   "Sunday: We are Closed",
 ];
 
-export const infoRRSS = [
+const infoRRSS = [
   {
     link: "mailto:brisnapaez25@gmail.com",
     icon: "/rrss/logo_email.png",
@@ -42,3 +43,12 @@ export const infoRRSS = [
     alt: "logo linkedin",
   },
 ];
+
+export const CardRRSS = infoRRSS
+.map(
+  (info) =>
+    `<a href=${info.link} target="_blank">
+      <img src=${info.icon} alt=${info.alt} />
+    </a>`
+)
+.join("");

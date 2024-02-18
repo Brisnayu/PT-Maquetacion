@@ -13,8 +13,7 @@
 }
 
 .componentButton:hover {
-    background-color: var(--color-300);
-    color: var(--color-000);
-    scale: 1.1;
+  background-color: var(--color-300);
+  color: var(--color-000);
+  scale: 1.1;
 }
-

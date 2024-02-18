@@ -1,10 +1,11 @@
-import { Collapse } from "../Collapse/Collapse";
+import { PetCareHub } from "../ElementsMain/PetCareHub/PetCareHub";
+import { Contact } from "../ElementsMain/Contact/Contact";
 import { About } from "../ElementsMain/About/About";
 import { Home } from "../ElementsMain/Home/Home";
 import { Personal } from "../ElementsMain/Personal/Personal";
 import { Review } from "../ElementsMain/Review/Review";
 import { Services } from "../ElementsMain/Services/Services";
-import { Hero } from "../Hero/Hero";
+import { Hero } from "../ElementsMain/Hero/Hero";
 import "./Main.css";
 
 export const Main = () => {
@@ -15,13 +16,12 @@ export const Main = () => {
     <div class="containerMain">
         ${Hero()}
         ${Home()}
-        
-        ${Services()}
         ${Personal()}
+        ${Services()}
+        ${PetCareHub()}
         ${About()}
-
-        ${Collapse()}
         ${Review()}
+        ${Contact()}
     </div>
     `;
   }

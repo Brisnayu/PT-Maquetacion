@@ -14,6 +14,7 @@
   --color-400: #3a424c;
   --color-500: #000000;
   --color-600: #dba777;
+  --color-700: #46535f;
 
   --background-light: whitesmoke;
   --background-dark: var(--color-400);
