@@ -8,7 +8,7 @@ label {
   padding-bottom: var(--padding-xxs);
 }
 
-input,
+form > input,
 textarea {
   width: 100%;
   padding: var(--padding-xxs);
