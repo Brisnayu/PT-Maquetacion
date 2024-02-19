@@ -1,12 +1,13 @@
 .containerHome {
-    display: flex;
-    margin: 0 10rem;
+  display: flex;
+  margin: 0 10rem;
 }
 
 @media screen and (max-width: 680px) {
-    .containerHome {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
+  .containerHome {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0 var(--padding-s);
+  }
 }

@@ -1,32 +1,25 @@
-export const explore = {
-  Home: "homelink",
-  "About Us": "aboutlink",
-  Services: "serviceslink",
-  "Pet Care Hub": "petcarehublink",
-  Reviews: "reviewlink",
-  Contact: "contactlink"
-};
+import { TypeRRSS } from "../types";
 
-export const usefulLinks = [
+export const usefulLinks: string[] = [
   "FAQs",
   "Shop",
   "Privacy Policy",
   "Terms And Conditions",
 ];
 
-export const contactInfo = [
+export const contactInfo: string[] = [
   "pruebadeemail@gmail.com",
   "0(800)-000-00-00",
   "Barcelona, BCN, España",
 ];
 
-export const openingTime = [
+export const openingTime: string[] = [
   "Mon - Fri: 08:00 am - 20:00 pm",
   "Saturday: 09:00 am - 20:00 pm",
   "Sunday: We are Closed",
 ];
 
-const infoRRSS = [
+const infoRRSS: TypeRRSS[] = [
   {
     link: "mailto:brisnapaez25@gmail.com",
     icon: "/rrss/logo_email.png",

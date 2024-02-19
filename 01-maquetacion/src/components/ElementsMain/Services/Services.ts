@@ -1,6 +1,6 @@
 import "./Services.css";
 
-import { contentServices } from "../../../utils/content";
+import { contentServices } from "../../../utils/infoMain";
 import { Card } from "../../Card/Card";
 
 export const Services = () => {

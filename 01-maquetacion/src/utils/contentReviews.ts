@@ -1,7 +1,8 @@
 import { Avatar } from "../components/Avatar/Avatar";
 import { Card } from "../components/Card/Card";
+import { TypeReviews } from "../types";
 
-const ourReviews = [
+const ourReviews: TypeReviews[] = [
   {
     avatar: "/AvatarReviews/Emma.png",
     name: "Emma",

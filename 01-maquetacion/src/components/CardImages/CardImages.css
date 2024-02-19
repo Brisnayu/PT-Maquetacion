@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 911px) {
   .containerImages {
-    height: 60vh;
+    min-height: 56vh;
   }
 
   .imageSup {

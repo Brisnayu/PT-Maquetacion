@@ -1,6 +1,6 @@
 import "./Header.css";
 
-import { LinksHTML } from "../../utils/links";
+import { LinksHTML } from "../../utils/contentLinks";
 
 export const Header = () => {
 

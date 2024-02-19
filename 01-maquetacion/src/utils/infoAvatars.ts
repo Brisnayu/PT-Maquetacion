@@ -1,6 +1,6 @@
-// ${Avatar("/Avatar/avatar1.png", "Pet Trainer", "Meghan Samit")}
+import { TypeProfessionInformation } from "../types";
 
-export const avatars = [
+export const avatars: TypeProfessionInformation[] = [
   {
     img: "/Avatar/avatar1.png",
     profession: "Pet Trainer",

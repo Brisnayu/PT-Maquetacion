@@ -2,7 +2,7 @@ import "./About.css";
 
 import { CardImages } from "../../CardImages/CardImages";
 import { Card } from "../../Card/Card";
-import { contentAbout, contentAboutInf } from "../../../utils/content";
+import { contentAbout, contentAboutInf } from "../../../utils/infoMain";
 
 export const About = () => {
   return `
@@ -11,7 +11,7 @@ export const About = () => {
       ${Card(
         "containerCardText",
         contentAbout.title,
-        contentAbout.text,
+        contentAbout.content,
         contentAbout.list
       )}
       
@@ -21,7 +21,7 @@ export const About = () => {
       ${Card(
         "containerCardText",
         contentAboutInf.title,
-        contentAboutInf.text,
+        contentAboutInf.content,
         contentAboutInf.list
       )}
     </div>

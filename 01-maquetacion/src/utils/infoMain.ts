@@ -1,28 +1,13 @@
-// Pasar los tipos a un archivo aparte!
+import { TypeGeneralInformation, TypeGeneralInformationExtended } from "../types";
 
-type TypeHome = {
-  title: string;
-  text: string;
-};
-type AboutContent = {
-  title: string;
-  text: string;
-  list: string[];
-};
-
-type TypeServices = {
-  title: string;
-  content: string;
-};
-
-export const contentHome: TypeHome = {
+export const contentHome: TypeGeneralInformation = {
   title: "Established & Trusted Pet Care Service",
-  text: "We take pride in providing a pet care service that has been established with dedication and earned the trust of numerous pet owners over the years. We understand that your furry friends are an integral part of your family, which is why we strive to deliver exceptional and trustworthy care for each one of them.",
+  content: "We take pride in providing a pet care service that has been established with dedication and earned the trust of numerous pet owners over the years. We understand that your furry friends are an integral part of your family, which is why we strive to deliver exceptional and trustworthy care for each one of them.",
 };
 
-export const contentAbout: AboutContent = {
+export const contentAbout: TypeGeneralInformationExtended = {
   title: "Best Agency For Your Pet.",
-  text: "With years of pet care industry experience, we've built a strong reputation rooted in caring attention, professionalism, and a commitment to the safety and well-being of your beloved pets.",
+  content: "With years of pet care industry experience, we've built a strong reputation rooted in caring attention, professionalism, and a commitment to the safety and well-being of your beloved pets.",
   list: [
     "Certifilied Groomer",
     "Animal Lover",
@@ -31,13 +16,13 @@ export const contentAbout: AboutContent = {
   ],
 };
 
-export const contentAboutInf: AboutContent = {
+export const contentAboutInf: TypeGeneralInformationExtended = {
   title: "Taking A Vacation? So Is Your Pet.",
-  text: "Our highly trained and passionate team is dedicated to providing the highest level of service, ensuring your pets feel happy, healthy and loved during every visit.",
+  content: "Our highly trained and passionate team is dedicated to providing the highest level of service, ensuring your pets feel happy, healthy and loved during every visit.",
   list: ["Pet Boarding", "Pet Daycare", "Pet Transport"],
 };
 
-export const contentServices: TypeServices[] = [
+export const contentServices: TypeGeneralInformation[] = [
   {
     title: "Puppy Sitting",
     content:
@@ -70,13 +55,13 @@ export const contentServices: TypeServices[] = [
   },
 ];
 
-export const contentHero: TypeServices = {
+export const contentHero: TypeGeneralInformation = {
   title: "Welcome to PetParadise!",
   content:
     "Embark on a journey of pet love and joy. PetParadise is your destination for heartwarming tales, helpful tips, and the shared passion for our furry friends. Join our community, where every pawprint tells a story, and together, we celebrate the happiness that pets bring into our lives. Your pet's paradise awaits!",
 };
 
-export const contentContacts: TypeServices = {
+export const contentContacts: TypeGeneralInformation = {
   title: "Contact Us",
   content:
     "We will be delighted to answer your questions and address your concerns. Fill out the following form so that we can get in touch with you as soon as possible:",

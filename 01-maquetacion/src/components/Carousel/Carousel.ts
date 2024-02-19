@@ -1,6 +1,6 @@
 import "./Carousel.css";
 
-import { Reviews } from "../../utils/infoReviews";
+import { Reviews } from "../../utils/contentReviews";
 
 export const Carousel = () => {
 

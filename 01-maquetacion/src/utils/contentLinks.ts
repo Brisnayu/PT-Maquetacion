@@ -1,4 +1,6 @@
-const links = {
+import { TypeLinks } from "../types";
+
+export const links: TypeLinks = {
   Home: "homelink",
   "About Us": "aboutlink",
   Services: "serviceslink",

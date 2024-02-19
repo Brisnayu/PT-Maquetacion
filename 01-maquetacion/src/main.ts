@@ -9,14 +9,13 @@ const footerElement = document.querySelector("footer");
 if (headerElement && footerElement) {
   headerElement.innerHTML = Header();
   footerElement.innerHTML = Footer();
-  
 }
 
 // Funcionality
-import { changeTheme } from "./utils/changeTheme";
+import { changeTheme } from "./functions/changeTheme";
 import { Main } from "./components/Main/Main";
-import { changeCollapse } from "./utils/changeCollapse";
-import { changeCarousel } from "./utils/changeCarousel";
+import { changeCollapse } from "./functions/changeCollapse";
+import { changeCarousel } from "./functions/changeCarousel";
 
 // Ejecution
 changeTheme();

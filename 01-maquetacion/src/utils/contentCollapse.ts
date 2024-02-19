@@ -1,4 +1,6 @@
-const collapsableContent = [
+import { TypeDescriptionInformation } from "../types";
+
+const collapsableContent: TypeDescriptionInformation[] = [
   {
     title: "Recommended Toys and Activities",
     content: [

@@ -21,3 +21,10 @@
   border-top-width: 0;
   border-left-width: 0;
 }
+
+@media screen and (max-width: 680px) {
+  .containerAvatar img {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+}

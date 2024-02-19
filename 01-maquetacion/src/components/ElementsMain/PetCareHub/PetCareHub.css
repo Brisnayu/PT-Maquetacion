@@ -87,3 +87,11 @@
 .rotateImg {
   rotate: 180deg;
 }
+
+@media screen and (max-width: 680px) {
+  .containerTitle, .containerInfo {
+    background-image: none;
+    width: 100%;
+  }
+}
+
