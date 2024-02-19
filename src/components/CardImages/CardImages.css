@@ -31,12 +31,31 @@
   border: 9px solid var(--background-dark);
 }
 
+.imageMovil {
+  display: none;
+}
+
 @media screen and (max-width: 911px) {
   .containerImages {
-    min-height: 56vh;
+    width: 100%;
+    height: 0;
+    padding-bottom: var(--padding-s);
   }
 
-  .imageSup {
+   .imageSup, .imageInf {
+    display: none;
+  }
+
+  .imageMovil {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: var(--color-300);
+    border-radius: var(--border-radius);
+    object-fit: cover;
+  }
+
+  /* .imageSup {
     height: var(--side-s);
   }
 
@@ -44,5 +63,5 @@
     height: var(--side-s);
     top: 2.5rem;
     left: 3rem;
-  }
+  } */
 }
