@@ -4,6 +4,7 @@ import { LinksHTML } from "../../utils/contentLinks";
 
 export const Header = () => {
   return `
+  <h1>Pet Paradise!</h1>
     <div class="container-header">
 
         <a href="https://portfolio-brisna-paez.netlify.app/" target="_blank">

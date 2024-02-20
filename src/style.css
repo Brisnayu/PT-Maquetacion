@@ -59,6 +59,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.translated-ltr h1 font,
+.translated-ltr h2 font,
+.translated-ltr h4 font {
+  font-family: var(--title-font);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -81,6 +87,16 @@ a {
 a:hover {
   color: var(--color-100);
   scale: 1.15;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-family: var(--title-font);
+  background-color: var(--color-200);
+  position: fixed;
+  z-index: 2;
+  letter-spacing: 10px;
 }
 
 h2 {
@@ -107,7 +123,9 @@ li {
 
 header {
   width: 100%;
-  animation: fadeInZoom 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {
@@ -132,6 +150,11 @@ footer {
 
 .dark a:hover {
   color: var(--color-100);
+}
+
+.dark h1 {
+  background-color: var(--color-700);
+  color: var(--color-000);
 }
 
 .dark h2 {
