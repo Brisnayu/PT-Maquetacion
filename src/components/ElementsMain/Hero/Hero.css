@@ -1,5 +1,4 @@
 .containerHero {
-  /* border: 1px solid red; */
   width: 100%;
   min-height: 70vh;
   margin: 4rem 0 0 0;
@@ -25,6 +24,7 @@
   .containerHero {
     padding: var(--padding-s);
     background-image: none;
+    min-height: 40vh;
   }
 
   .dark .containerHero {

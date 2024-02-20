@@ -34,7 +34,6 @@
 }
 
 .containerCardText {
-  /* border: 1px solid green; */
   padding-right: var(--padding-xl);
   display: flex;
   flex-direction: column;

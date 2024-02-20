@@ -1,5 +1,4 @@
 .containerImages {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -55,13 +54,4 @@
     object-fit: cover;
   }
 
-  /* .imageSup {
-    height: var(--side-s);
-  }
-
-  .imageInf {
-    height: var(--side-s);
-    top: 2.5rem;
-    left: 3rem;
-  } */
 }
