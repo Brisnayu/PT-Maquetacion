@@ -1,19 +1,8 @@
-import { avatars } from "../../../utils/infoAvatars";
-import { Avatar } from "../../Avatar/Avatar";
 import "./Personal.css";
 
+import { CardAvatar } from "../../../utils/contentAvatars";
+
 export const Personal = () => {
-  const CardAvatar = avatars
-    .map(
-      (information) =>
-        `${Avatar(
-          information.img,
-          information.profession,
-          information.name,
-          information.bgC
-        )}`
-    )
-    .join("");
 
   return `
     <div class="containerPersonal" id="aboutlink">

@@ -1,6 +1,7 @@
+import { Avatar } from "../components/Avatar/Avatar";
 import { TypeProfessionInformation } from "../types";
 
-export const avatars: TypeProfessionInformation[] = [
+const avatars: TypeProfessionInformation[] = [
   {
     img: "/Avatar/avatar1.png",
     profession: "Pet Trainer",
@@ -26,3 +27,15 @@ export const avatars: TypeProfessionInformation[] = [
     bgC: "var(--color-100)"
   }
 ];
+
+export const CardAvatar = avatars
+.map(
+  (information) =>
+    `${Avatar(
+      information.img,
+      information.profession,
+      information.name,
+      information.bgC
+    )}`
+)
+.join("");

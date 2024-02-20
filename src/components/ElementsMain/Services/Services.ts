@@ -1,13 +1,8 @@
 import "./Services.css";
 
-import { contentServices } from "../../../utils/infoMain";
-import { Card } from "../../Card/Card";
+import { cardsServices } from "../../../utils/contentMain";
 
 export const Services = () => {
-  const cardsServices = contentServices
-    .map((service) => `${Card("containerCard", service.title, service.content)}`)
-    .join("");
-
   return `
     <div class="containerServices" id="serviceslink">
       <h3>What we do for you?</h3>

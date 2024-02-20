@@ -2,7 +2,7 @@ import "./Home.css";
 
 import { CardImages } from "../../CardImages/CardImages";
 import { Card } from "../../Card/Card";
-import { contentHome } from "../../../utils/infoMain";
+import { contentHome } from "../../../utils/contentMain";
 
 export const Home = () => {
   return `

@@ -1,4 +1,4 @@
-import { contentContacts } from "../../../utils/infoMain";
+import { contentContacts } from "../../../utils/contentMain";
 import { Form } from "../../Form/Form";
 import "./Contact.css";
 

@@ -20,14 +20,12 @@ export const Footer = () => {
           <img src="/arrow.png" alt="logo arrow" />
         </label>
         
-
         <div class="containerRRSS">
           <h4>Follow Us</h4>
           <div>
             ${CardRRSS}
           </div>
         </div>
-
         
       </div>
 
@@ -41,4 +39,3 @@ export const Footer = () => {
     </div>
     `;
 };
-/* ${CardLink("UsefulLinks", undefined, Object.entries(usefulLinks))}*/

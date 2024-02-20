@@ -3,7 +3,6 @@ import "./Header.css";
 import { LinksHTML } from "../../utils/contentLinks";
 
 export const Header = () => {
-
   return `
     <div class="container-header">
 
