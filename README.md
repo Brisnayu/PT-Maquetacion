@@ -38,6 +38,6 @@ El proyecto ha sido desplegado en Netlify, lo que significa que puedes visualiza
 
 ### Te dejo un breve vistazo:
 
-![](https://res.cloudinary.com/dx8j6h1rb/image/upload/v1708456553/Prueba%20maquetaci%C3%B3n/Prueba_maquetaci%C3%B3n_r0jcr2.gif)
+![Gif PetParadise](https://res.cloudinary.com/dx8j6h1rb/image/upload/v1708456553/Prueba%20maquetaci%C3%B3n/Prueba_maquetaci%C3%B3n_r0jcr2.gif)
 
 #### Para cualquier duda o comentario, puedes contactarme ✌🏼😊
