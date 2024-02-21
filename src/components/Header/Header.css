@@ -15,6 +15,10 @@
   border-bottom: 5px solid var(--color-000);
 }
 
+.translated-ltr .container-header {
+  margin-top: 4.5rem;
+}
+
 .logo {
   height: var(--side-xs);
   will-change: filter;
